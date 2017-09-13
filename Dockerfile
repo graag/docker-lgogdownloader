@@ -12,7 +12,6 @@ RUN apt-get -y update \
 RUN cd /opt \
  && git clone https://github.com/Sude-/lgogdownloader.git \
  && cd /opt/lgogdownloader \
- && git checkout -b v3.2 \
  && mkdir build \
  && cd build \
  && cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release \
