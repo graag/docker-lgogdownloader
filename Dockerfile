@@ -23,9 +23,9 @@ RUN apt-get -y update \
     libboost-date-time-dev libboost-iostreams-dev help2man cmake libssl-dev \
     pkg-config git man \
  && apt-get -y autoremove \
- && apt-get -y install libboost-regex1.58.0 libjsoncpp1 liboauth0 librhash0 \
-    libtinyxml2-2v5 libhtmlcxx3v5 libboost-system1.58.0 libboost-filesystem1.58.0 \
-    libboost-program-options1.58.0 libboost-date-time1.58.0 libboost-iostreams1.58.0 \
+ && apt-get -y install libboost-regex1.65.1 libjsoncpp1 liboauth0 librhash0 \
+    libtinyxml2-2v5 libhtmlcxx3v5 libboost-system1.65.1 libboost-filesystem1.65.1 \
+    libboost-program-options1.65.1 libboost-date-time1.65.1 libboost-iostreams1.65.1 \
     libcurl3 \
  && rm -rf /opt/lgogdownloader \
  && rm -rf /var/lib/apt/lists/*
