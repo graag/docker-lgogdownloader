@@ -26,7 +26,7 @@ RUN apt-get -y update \
  && apt-get -y install libboost-regex1.65.1 libjsoncpp1 liboauth0 librhash0 \
     libtinyxml2-6 libhtmlcxx3v5 libboost-system1.65.1 libboost-filesystem1.65.1 \
     libboost-program-options1.65.1 libboost-date-time1.65.1 libboost-iostreams1.65.1 \
-    libcurl3 \
+    libcurl4 \
  && rm -rf /opt/lgogdownloader \
  && rm -rf /var/lib/apt/lists/*
 
